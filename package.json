@@ -1,0 +1,44 @@
+{
+    "name": "insomnia-plugin-sanitize-url-html",
+    "version": "1.0.0",
+    "description": "Replace HTML entities in URLs with their respective symbols, for Insomnia REST Client",
+    "main": "app.js",
+    "insomnia": {
+      "name": "sanitize-url-html",
+      "displayName": "Sanitize URL HTML",
+      "description": "Replace HTML entities in URLs with their respective symbols",
+      "publisher": {
+        "name": "Otho DuBoise"
+      },
+      "images": {
+        "icon":"icon.svg"
+      },
+      "applications": {
+        "designer": "*",
+        "core": "*",
+        "cli": "*"
+      },
+      "unlisted": false
+    },
+    "keywords": [
+      "insomnia",
+      "insomnia rest client",
+      "insomnia plugin",
+      "html entities",
+      "html entity",
+      "sanitize url"
+    ],
+    "author": "Otho DuBoise <okd@otho.dev>",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/okdv/insomnia-plugin-sanitize-url-html.git"
+    },
+    "bugs": {
+      "url": "https://github.com/okdv/insomnia-plugin-sanitize-url-html/issues"
+    },
+    "homepage": "https://github.com/okdv/insomnia-plugin-sanitize-url-html#readme"
+  }
