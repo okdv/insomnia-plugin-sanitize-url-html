@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-sanitize-url-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace HTML entities in URLs with their respective symbols, for Insomnia REST Client",
   "main": "app.js",
   "insomnia": {
